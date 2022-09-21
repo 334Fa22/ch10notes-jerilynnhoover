@@ -33,7 +33,7 @@ function burpees() {
 //Function to display the plank example video
 function plank() {
   videoSource.src = "media/plank.mp4";
-  descriptionSource = "media/plank-descriptions.vtt";
+  descriptionSource.src = "media/plank-descriptions.vtt";
   video.style.display = "block";
   video.load();
 }
